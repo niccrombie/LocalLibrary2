@@ -1,2 +1,3 @@
-# LocalLibrary2
-Local Library written in express (node)
+# LocalLibrary
+Node/Express LocalLibrary tutorial
+
