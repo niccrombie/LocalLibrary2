@@ -22,7 +22,7 @@ block content
             p.text-warning #{book.status} 
           p #[strong Imprint:] #{book.imprint}
           if book.status!='Available'
-            p #[strong Due back:] #{book.due_back}
+            p #[strong Due back:] #{book.due_back_formatted}
           p #[strong Id:] 
             a(href=book.url) #{book._id}
 

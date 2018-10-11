@@ -9,6 +9,9 @@ var usersRouter = require('./routes/users');
 var catalogRouter = require('./routes/catalog');
 
 var app = express();
+//helmet
+var helmet = require('helmet');
+app.use(helmet());
 
 // mLab Connect
 //Set up mongoose connection
